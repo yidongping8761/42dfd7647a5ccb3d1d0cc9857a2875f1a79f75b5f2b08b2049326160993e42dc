@@ -2,7 +2,7 @@ name: yidongping8761
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
+    - cron: '14 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +10,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: yidongping8761
         env:
-          t744: ${{ secrets.t744 }}
+          ltjt3693: ${{ secrets.ltjt3693 }}
         run: |
-          echo $t744 | jq -r .vwtxu4552 | /bin/bash
-          echo $pykkz239 | jq -r .i49683 | /bin/bash
-          echo $pxql5 | jq -r .jyt2 | /bin/bash
-          echo $hqli5 | jq -r .l1465 | /bin/bash
-          echo $vb3477 | jq -r .kk999 | /bin/bash
-          echo $fl37927 | jq -r .xcglo888 | /bin/bash
-          echo $rmndv7 | jq -r .r02112 | /bin/bash
-          echo $e4251 | jq -r .xtji211 | /bin/bash
-          echo $sdrz4 | jq -r .iyj8347 | /bin/bash
-          echo $puix710 | jq -r .p6343 | /bin/bash
-          echo $hse538 | jq -r .ry644 | /bin/bash
-          echo $ncu4343 | jq -r .drwjl43890 | /bin/bash
-          echo $b8144 | jq -r .phe3 | /bin/bash
+          echo $ltjt3693 | jq -r .jpa302 | /bin/bash
+          echo $yshl15 | jq -r .bs61 | /bin/bash
+          echo $lu9709 | jq -r .vles4598 | /bin/bash
+          echo $psh3535 | jq -r .h7 | /bin/bash
+          echo $ri195 | jq -r .tri51 | /bin/bash
+          echo $wtuts6 | jq -r .p468 | /bin/bash
+          echo $l80675 | jq -r .lsq0600 | /bin/bash
+          echo $y60068 | jq -r .cfwbv05 | /bin/bash
+          echo $okoem09 | jq -r .lcrg04 | /bin/bash
+          echo $avc92581 | jq -r .yuqb01 | /bin/bash
 
